@@ -1,0 +1,6 @@
+framework module Pods_SYAlbum_Tests {
+  umbrella header "Pods-SYAlbum_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

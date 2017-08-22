@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2070E0480C79CFE00FF87304 /* SYAlbum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYAlbum.podspec; path = ../SYAlbum.podspec; sourceTree = "<group>"; };
+		2070E0480C79CFE00FF87304 /* SYAlbum.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYAlbum.podspec; path = ../SYAlbum.podspec; sourceTree = "<group>"; };
 		387D529FF3CBBFD0C1D786B7 /* Pods-SYAlbum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlbum_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYAlbum_Tests/Pods-SYAlbum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SYAlbum_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYAlbum_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		911B54B7187B4935FFC9EE62 /* Pods_SYAlbum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAlbum_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		932CCBB0C9FBA4E4AE6DE3D0 /* Pods_SYAlbum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAlbum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2914BC95D821AB05C61295A /* Pods-SYAlbum_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlbum_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYAlbum_Example/Pods-SYAlbum_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E3E47E17CC262B93F428C52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F06155660AAEC3DFC45DD6ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3E47E17CC262B93F428C52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F06155660AAEC3DFC45DD6ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TKL7C35FVV;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TKL7C35FVV;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -505,6 +507,7 @@
 			baseConfigurationReference = C2914BC95D821AB05C61295A /* Pods-SYAlbum_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				INFOPLIST_FILE = SYAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +522,7 @@
 			baseConfigurationReference = 8FADCA97DEFB2447577BE9EE /* Pods-SYAlbum_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				INFOPLIST_FILE = SYAlbum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 387D529FF3CBBFD0C1D786B7 /* Pods-SYAlbum_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66AF32CC164108A42E725C4F /* Pods-SYAlbum_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

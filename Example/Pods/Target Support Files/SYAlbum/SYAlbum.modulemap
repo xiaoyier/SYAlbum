@@ -1,0 +1,6 @@
+framework module SYAlbum {
+  umbrella header "SYAlbum-umbrella.h"
+
+  export *
+  module * { export * }
+}
