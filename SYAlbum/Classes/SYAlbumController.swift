@@ -8,33 +8,31 @@
 
 import UIKit
 
-public class Test: UIViewController {
+public class SYAlbumController: UIViewController {
     
-//    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-//        
-//        //do something
-//        view.backgroundColor = UIColor.white
-//    }
-    
-//    required public init?(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = UIColor.white
+        let button = UIButton(type: .custom)
+        button.center = CGPoint(x: UIScreen.main.bounds.width * 0.5, y: UIScreen.main.bounds.height * 0.5)
+        button.setTitle("Show", for: .normal)
+        button.setTitleColor(UIColor.cyan, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 22)
+        button.addTarget(self, action: #selector(show(button:)), for: .touchUpInside)
+        button.sizeToFit()
+        view.addSubview(button)
 
     }
 
-
-    @IBAction func show(_ sender: UIButton) {
-        
+    func show(button: UIButton){
         let sheet = UIActionSheet(title: nil, delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil)
         
         sheet.addButton(withTitle: "Browser")
         sheet.addButton(withTitle: "Picker")
         
         sheet.show(in: self.view)
+
     }
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -42,7 +40,7 @@ public class Test: UIViewController {
     }
 }
 
-extension Test: UIActionSheetDelegate {
+extension SYAlbumController: UIActionSheetDelegate {
     
     public func actionSheet(_ actionSheet: UIActionSheet, clickedButtonAt buttonIndex: Int) {
         guard buttonIndex != actionSheet.cancelButtonIndex else {
