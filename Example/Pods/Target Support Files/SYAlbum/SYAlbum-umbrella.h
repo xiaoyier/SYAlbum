@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Ubiquity.h"
 
 FOUNDATION_EXPORT double SYAlbumVersionNumber;
 FOUNDATION_EXPORT const unsigned char SYAlbumVersionString[];

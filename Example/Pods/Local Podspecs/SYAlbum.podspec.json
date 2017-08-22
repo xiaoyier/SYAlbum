@@ -1,9 +1,9 @@
 {
   "name": "SYAlbum",
-  "version": "0.1.0",
-  "summary": "A short description of SYAlbum.",
+  "version": "0.1.1",
+  "summary": "Just for test",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/914359463@qq.com/SYAlbum",
+  "homepage": "https://github.com/xiaoyier/SYAlbum",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "914359463@qq.com": "914359463@qq.com"
   },
   "source": {
-    "git": "https://github.com/914359463@qq.com/SYAlbum.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/xiaoyier/SYAlbum.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
