@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYAlbum'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Just for test'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SYAlbum/Classes/**/*'
-  s.resource = 'SYAlbum/Classes/**/*{xib}'
+  #s.resource = 'SYAlbum/Classes/**/*{xib}'
   
   # s.resource_bundles = {
   #   'SYAlbum' => ['SYAlbum/Assets/*.png']
